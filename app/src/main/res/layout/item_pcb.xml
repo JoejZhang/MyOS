@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_pcb_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="进程名"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_pcb_need"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="完成进程\n所需时间（s）"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tv_pcb_run"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="已运行时间(s)"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_pcb_big"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="占用内存大小"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tv_pcb_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="状态"
+        android:textSize="15sp"/>
+
+</LinearLayout>
